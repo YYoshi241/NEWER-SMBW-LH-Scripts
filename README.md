@@ -4,6 +4,11 @@ Scripts and Tools necessary to prepare Newer SMBW Wii for Reggie Next
 
 Instructions
 
+Download Every File or Click "Clone or Download" then "Download ZIP".
+Then extract the ZIP file (if downloaded).
+
+What these files do:
+
 NEWER_LH_DECOMPRESS.bat
 
 Run this script inside of the NewerSMBW folder of your copy of Newer Super Mario Bros. Wii.
