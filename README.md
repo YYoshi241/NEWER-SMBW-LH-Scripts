@@ -9,13 +9,20 @@ Then extract the ZIP file (if downloaded).
 
 What these files do:
 
-NEWER_LH_DECOMPRESS.bat
+NEWER FILES DECOMPRESS.bat
 
 Run this script inside of the NewerSMBW folder of your copy of Newer Super Mario Bros. Wii.
-It will output all LH compressed files in the Subdirectories of this folder. (File names are directly specified to a unmodified Newer 1.2.0)
+It will output uncompressed files from the original compressed files in the Subdirectories of this folder. 
+(File names are directly specified to an unmodified Newer 1.2.0 for LH mode, Newer v1.3.0 for LZ Mode)
+
+NEWER_LH_DECOMPRESS.bat (OLD VERSION OF SCRIPT, DOESN'T SUPPORT LATEST VERSION OF NEWER)
+
+Run this script inside of the NewerSMBW folder of your copy of Newer Super Mario Bros. Wii.
+It will output uncompress files from the original compressed files in the Subdirectories of this folder. 
+(File names are directly specified to an unmodified Newer 1.2.0)
 
 
-REGGIE_NEXT_TILESET_FIX.bat
+REGGIE_NEXT_TILESET_FIX.bat (NOT NEEDED FOR THE NEW DECOMPRESS SCRIPT)
 
 Run this script to fix the "tileset X.arc is not found" error.
 IT copies the ARC files from /Tilesets to /Stages/Texture/
@@ -33,7 +40,11 @@ so you'll have to manually compress the files you've edited yourself.
 
 ntcompress -lh <filename or path including file name ie. 01-01.arc or /Stages/01-01.arc>
 
-then rename the file to <original file name ie. 01-01.arc>.LH as it will ouput the file with "_LH.bin" at the end.
+or this for Newer versions 1.3.0 or later
+
+ntcompress -l <filename or path including file name ie. 01-01.arc or /Stages/01-01.arc> 
+
+Then rename the file to <original file name ie. 01-01.arc>.LH as it will ouput the file with "_LH.bin" at the end.
 
 How to help this repository.
 
